@@ -122,7 +122,7 @@ void instruction_partition(unsigned instruction, unsigned *op, unsigned *r1,unsi
 
 
 
-int instruction_decode(unsigned op,struct_controls *controls) //////////////////////Should be fixed, test
+int instruction_decode(unsigned op,struct_controls *controls)
 {
 
     /*
@@ -308,7 +308,7 @@ void read_register(unsigned r1,unsigned r2,unsigned *Reg,unsigned *data1,unsigne
 
 
 
-void sign_extend(unsigned offset,unsigned *extended_value) //////////////////////added comments and a new sign extend function. For some reason when I used HEX values, it would not run the last command of a file.
+void sign_extend(unsigned offset,unsigned *extended_value)
 {
     /*
         sign_extend(…)
@@ -333,7 +333,7 @@ void sign_extend(unsigned offset,unsigned *extended_value) /////////////////////
 
 
 
-int ALU_operations(unsigned data1,unsigned data2,unsigned extended_value,unsigned funct,char ALUOp,char ALUSrc,unsigned *ALUresult,char *Zero) //////////////////////Excluded redundant plan
+int ALU_operations(unsigned data1,unsigned data2,unsigned extended_value,unsigned funct,char ALUOp,char ALUSrc,unsigned *ALUresult,char *Zero)
 {
   /*
     ALU_operations(…)
