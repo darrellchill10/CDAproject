@@ -1,7 +1,7 @@
 #MySPIM Simulator
 ###CDA3103
 
-##Running the program
+#Running the program
 1. Download the Project.c file
 2. Download the spimcore.c, spimcore.h, and .asc files from the assignment webcourse page
 3. Place all the programs in the same folder
