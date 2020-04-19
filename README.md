@@ -11,7 +11,7 @@ A MySPIM assembly code simulator written in C.
 
 | Command | Description |
 | :-----: | ----------- |
-| **r**     | Dump registers** contents |
+| **r**     | Dump registers' contents |
 | **m**     | Dump memory contents in hexadecimal format |
 | **s[n]**  | Step to the next instruction (Step to the next n instruction) |
 | **c**     | Continue simulation (until halt) |
