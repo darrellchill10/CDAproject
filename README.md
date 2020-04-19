@@ -1,7 +1,7 @@
 # MySPIM Simulator
 Code written in C, Created by Darrell Hill and Daniel Cruz for CDA3103.
 
-A MySPIM assembly code simulator written in C.
+A MySPIM assembly code simulator.
 
 ## Running the program
 1. Download the repository
